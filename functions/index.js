@@ -15,5 +15,9 @@ app.get('/api', (req, res) => {
     res.send('Welcome to the FireVerse V2!!')
 })
 
+app.delete('/api', (req, res) => {
+    // delete what you wanna delete bro!
+    // delete some more bro!
+});
 
 exports.api = functions.https.onRequest(app);
