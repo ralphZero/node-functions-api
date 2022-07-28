@@ -11,5 +11,9 @@ app.get('/', (req, res) => {
     res.send('Welcome to the FireVerse!!🔥')
 })
 
+app.get('/api', (req, res) => {
+    res.send('Welcome to the FireVerse V2!!')
+})
+
 
 exports.api = functions.https.onRequest(app);
